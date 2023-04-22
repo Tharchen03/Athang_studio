@@ -23,7 +23,7 @@
 							<a href="#" class="delivering__link btn">Read More</a>
 						</div>
 							<div class="delivering__image">
-								<img src="delivery-img.png" alt="delivering img" class="delivering__img img">
+								<img src="https://vimeo.com/user19468877?embedded=true&source=owner_name&owner=19468877 alt="delivering img" class="delivering__img img">
 							</div>
 					</div>
 				</div>

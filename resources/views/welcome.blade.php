@@ -76,32 +76,39 @@
 				</div>
 			</div>
 		</header>
+
+		
 	
 		<main class="main">
 			<section class="home" id="home">
 				<div class="container">
 					<div class="home__inner">
 						<div class="home__items">
-							<h1 class="home__title">Delicious food<br> is waiting for you</h1>
-							<p class="home__subtitle text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi provident molestiae dolorem nobis.</p>
-							<a href="#" class="home__link btn">Order Now</a>
+							<h1 class="home__title">Athang  <br> is waiting for you</h1>
+							<p class="home__subtitle text">is a pioneering software development and training academy firm greatly driven by the information technology.
+ 
+ The company was founded in 2005 with the aim to meet the ever changing demand of the customers in the field of ICT. Athang strives for the excellence in offering our services, be it a training programme or developing your website or producing an animation work that our audience would love to watch or restoring your internet breakdown and many more…
+  
+ As a company, Athang believes in the team work and democratic working culture to bring the best of every employees at personal as well as professional level.</p>
+							
+ <a href="https://www.athang.com/public/w" class="home__link btn">Know more</a>
 						</div>
 						<div class="home__slider">
 							<div class="home__image">
-								<img src="1.png" alt="home img" class="home__img img">
+								<img src="https://www.athang.com/public/images/logo.jpg" alt="home img" class="home__img img">
 							</div>
 							<div class="home__image">
-								<img src="1.png" alt="home img" class="home__img img">
+								<img src="https://www.athang.com/public/images/logo.jpg" alt="home img" class="home__img img">
 							</div>
 							<div class="home__image">
-								<img src="1.png" alt="home img" class="home__img img">
+								<img src="https://www.athang.com/public/images/logo.jpg" alt="home img" class="home__img img">
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="our-menu" id="menu">
+			<!-- <section class="our-menu" id="menu">
 				<div class="container our-menu__container">
 					<h2 class="our-menu__title title">Our menu</h2>
 					<div class="our-menu__slider">
@@ -129,7 +136,8 @@
 					</div>
 				</div>
 			</section>
-
+			 -->
+<!-- 
 			<section class="delivering" id="delivering">
 				<div class="container">
 					<div class="delivering__inner">
@@ -192,7 +200,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 			<section class="contact" id="contact">
 				<div class="container">
@@ -245,9 +253,9 @@
 			<div class="container">
 				<div class="footer__inner">
 					<div class="footer__block">
-						<a href="index.html" class="footer__logo logo">
-							<img src="logo.png" alt="logo" class="logo__img img">
-							<span>Delicious food</span>
+						<a href="https://www.athang.com/public/w" class="footer__logo logo">
+							<img src="Athang_logo.jpg" alt="logo" class="logo__img img">
+							<span>Athang Studio</span>
 						</a>
 						<div class="footer__text text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo impedit consectetur facilis?
 						</div>
