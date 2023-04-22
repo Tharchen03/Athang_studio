@@ -36,3 +36,7 @@ Route::get('/services', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/trial', function () {
+    return view('trial');
+});
