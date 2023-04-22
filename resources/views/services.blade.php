@@ -81,28 +81,28 @@
 							<div class="service__column">
 								<div class="service__item">
 									<div class="service__image">
-										<img src="cutlery-fork.svg" alt="service" class="service__img img">
+										<img src="i.webp" alt="service" class="service__img img">
 									</div>
-									<h3 class="service__name">Outdoor Catering</h3>
-									<p class="service__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum.</p>
+									<h3 class="service__name">Video Editing</h3>
+									<p class="service__text text">"Editing is like killing your story and then very slowly bringing it back to life."</p>
 								</div>
 							</div>
 							<div class="service__column">
 								<div class="service__item">
 									<div class="service__image">
-										<img src="food-tray.svg" alt="service" class="service__img img">
+										<img src="e.webp" alt="service" class="service__img img">
 									</div>
-									<h3 class="service__name">Industrial Services</h3>
-									<p class="service__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum.</p>
+									<h3 class="service__name">video Services</h3>
+									<p class="service__text text">"We're operating in a world where one good video can lead to a massive social following."</p>
 								</div>
 							</div>
 							<div class="service__column">
 								<div class="service__item">
 									<div class="service__image">
-										<img src="cake.svg" alt="service" class="service__img img">
+										<img src="a.jpg" alt="service" class="service__img img">
 									</div>
-									<h3 class="service__name">Events & Exhibition</h3>
-									<p class="service__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum.</p>
+									<h3 class="service__name">Streaming</h3>
+									<p class="service__text text">“The secret to getting ahead is getting started.” </p>
 								</div>
 							</div>
 							<div class="service__column">
