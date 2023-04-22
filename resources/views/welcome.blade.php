@@ -27,7 +27,7 @@
 						<nav class="menu">
 							<ul class="menu__list">
 								<li class="menu__item">
-									<a href="/home" class="menu__link">Home</a>
+									<a href="/welcome" class="menu__link">Home</a>
 								</li>
 								<li class="menu__item">
 									<a href="#menu" class="menu__link">Our Menu</a>
