@@ -40,3 +40,7 @@ Route::get('/welcome', function () {
 Route::get('/trial', function () {
     return view('trial');
 });
+
+Route::get('/navbar', function () {
+    return view('navbar');
+});
