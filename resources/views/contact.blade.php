@@ -45,7 +45,10 @@
 					</div>
 				</div>
 			</section>
+			<br>
 
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3538.947786856308!2d89.62837367589461!3d27.501999234517804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e1943d9df45cc3%3A0x14944eaf62ce3e40!2sAthang%20Training%20Academy!5e0!3m2!1sen!2sbt!4v1682394505340!5m2!1sen!2sbt" width="1840" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+<br>
 			@include('footer')
 
 
