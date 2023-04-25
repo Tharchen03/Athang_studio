@@ -41,10 +41,10 @@
 						<div class="footer-contact__header">Contact Us</div>
 						<ul class="footer-contact__list">
 							<li class="footer-contact__item text">
-								<a href="tel:+123456789123" class="footer-contact__link">+12(345)678-91-23</a>
+								<a href="tel:+123456789123" class="footer-contact__link">+9752(345)678-91-23</a>
 							</li>
 							<li class="footer-contact__item text">
-								<a href="delicious@gmail.com" class="footer-contact__link">delicious@gmail.com</a>
+								<a href="delicious@gmail.com" class="footer-contact__link">athang@gmail.com</a>
 							</li>
 							<li class="footer-contact__item text">
 								<a href="https://www.google.com/maps/place/1101+Central+Park+S,+New+York,+NY+10019,+США/@40.7677488,-73.9834272,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f648b163ef:0x43bd13fc89b52346!8m2!3d40.7677448!4d-73.9812385" class="footer-contact__link" target="_blank">Central Park, Manhattan</a>
@@ -58,7 +58,7 @@
 								<a href="#" class="footer-link__link">About Us</a>
 							</li>
 							<li class="footer-link__item text">
-								<a href="#" class="footer-link__link">Blog</a>
+								<a href="#" class="footer-link__link">Advertisement</a>
 							</li>
 							<li class="footer-link__item text">
 								<a href="#" class="footer-link__link">Contact Us</a>
@@ -88,7 +88,7 @@
 				</div>
 				<div class="footer__copyright">
 					<div class="footer__cooper text">Copyright © 
-						<a href="https://dimafomaa.online" class="footer__link-bio" target="_blank">dimafomaa</a>, 2023. All rights reserved.
+						<a href="https://dimafomaa.online" class="footer__link-bio" target="_blank">tharchen_03</a>, 2023. All rights reserved.
 					</div>
 				</div>
 			</div>
