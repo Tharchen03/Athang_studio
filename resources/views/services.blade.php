@@ -51,12 +51,13 @@
 							</div>
 							<div class="service__column">
 								<div class="service__item">
-									<div class="service__image">
-										<img src="basket.svg" alt="service" class="service__img img">
-									</div>
-									<h3 class="service__name">Hospital Catering</h3>
-									<p class="service__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum.</p>
-								</div>
+								<div class="service__image">
+<img src="u.jpg"alt="service" class="service__img img">
+</div>
+<h3 class="service__name">Video</h3>
+<p class="service__text text">Video allows us to tell the great stories of our customers, rather than our own.</p>
+</div>
+
 							</div>
 						</div>
 						<div class="service__button">
