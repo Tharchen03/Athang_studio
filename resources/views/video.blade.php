@@ -278,6 +278,7 @@
                 </div>
             </div>
 
+
             <!--/End: trending-->
             <div class="share-buttons share-buttons-home">
                 <div class="container">
@@ -299,7 +300,7 @@
             <section class="block_area block_area_home">
                 <div class="block_area-header">
                     <div class="float-left bah-heading mr-4">
-                        <h2 class="cat-heading">Latest Episode</h2>
+                        <h2 class="cat-heading">Ap Bokto Seriess</h2>
                     </div>
                     <div class="float-right viewmore"><a class="btn" href="/recently-updated">View more<i
                                 class="fas fa-angle-right ml-2"></i></a></div>
