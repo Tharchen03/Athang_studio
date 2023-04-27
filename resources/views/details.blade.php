@@ -10,7 +10,10 @@
 
     <link rel="stylesheet" href="nullstyle.css">
     <link rel="stylesheet" href="style.css">
-
+ <!-- url img -->
+ <link rel="icon" type="Athang_logo.jpg" sizes="32x32" href="Athang_logo.jpg">
+    <link rel="icon" type="Athang_logo.jpg" sizes="16x16" href="Athang_logo.jpg">
+    <!-- end -->
     <title>Athang Studio</title>
 </head>
 

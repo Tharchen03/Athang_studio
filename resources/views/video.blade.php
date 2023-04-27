@@ -2,7 +2,7 @@
 <html lang="en" data-fp="ub7pn4l70m">
 
 <head>
-    <title>Zoro Free Anime Streaming Homepage</title>
+    <title>Athang studio</title>
 
     <meta name="robots" content="index,follow">
     <meta http-equiv="content-language" content="en">
@@ -11,9 +11,9 @@
     <meta name="keywords"
         content="watch anime online, anime site, free anime, anime to watch, online anime, anime streaming, stream anime online, english anime, english dubbed anime">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://zoro.to/home/">
-    <meta property="og:title" content="Zoro Free Anime Streaming Homepage">
-    <meta property="og:image" content="capture.png">
+    <!-- <meta property="og:url" content="https://zoro.to/home/"> -->
+    <meta property="og:title" content="Athang studio">
+    <!-- <meta property="og:image" content="capture.png"> -->
     <meta property="og:image:width" content="650">
     <meta property="og:image:height" content="350">
     <meta property="og:description"
@@ -21,15 +21,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="apple-mobile-web-app-status-bar" content="#202125">
     <meta name="theme-color" content="#202125">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="icon" type="Athang_logo.jpg" sizes="32x32" href="Athang_logo.jpg">
+    <link rel="icon" type="Athang_logo.jpg" sizes="16x16" href="Athang_logo.jpg">
+    <!-- <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <link rel="icon" sizes="192x192" href="touch-icon-192x192.png">
-    <link rel="manifest" href="/manifest.json?v=0.2">
-    <!-- Google tag (gtag.js) -->
+    <link rel="manifest" href="/manifest.json?v=0.2"> -->
+    <!-- Google tag (gtag.js)
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQP67TWZDC"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
