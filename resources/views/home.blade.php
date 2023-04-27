@@ -84,6 +84,8 @@ file name welcome.blade.php
         <div class="container">
             @yield('content')
         </div>
+
+        <!-- from video.php -->
         <div id="wrapper">
 
             <div id="anime-trending">
@@ -823,11 +825,11 @@ file name welcome.blade.php
                 </div>
             </section>
 
+<!-- end of video.php -->
 
 
 
-
-
+<!-- about us  -->
 
             <div class="partners">
                 <div class="container">
@@ -915,7 +917,10 @@ file name welcome.blade.php
                     <img src="b.png" alt="service" class="service__img img">
                 </div>
         </main>
+<!-- end of about us -->
 
+
+<!-- contack us -->
         <section class="contact" id="contact">
             <div class="container">
                 <div class="contact__inner">
@@ -942,6 +947,8 @@ file name welcome.blade.php
                 </div>
             </div>
         </section>
+
+    <!-- end of contack us -->
 
         @include('footer')
     </div>
