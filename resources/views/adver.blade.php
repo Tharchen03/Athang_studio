@@ -9,8 +9,8 @@ file name welcome.blade.php
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="nullstyle.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="nullstyle.css">
+    <link rel="stylesheet" href="style.css"> -->
 
  <!--Begin: Stylesheet-->
  <link rel="stylesheet" href="bootstrap.min.css">
@@ -19,7 +19,13 @@ file name welcome.blade.php
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="styles.min.css">
     <!--End: Stylesheet-->
-
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="icon" sizes="192x192" href="touch-icon-192x192.png">
+    <link rel="manifest" href="/manifest.json?v=0.2">
 
     <title>Athang Studio</title>
 </head>
@@ -31,7 +37,7 @@ file name welcome.blade.php
         <div class="container">
             @yield('content')
         </div>
-
+        <div id="wrapper">
         <section class="block_area block_area_home">
                 <div class="block_area-header">
                     <div class="float-left bah-heading mr-4">
