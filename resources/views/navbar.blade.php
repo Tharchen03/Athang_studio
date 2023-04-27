@@ -32,10 +32,10 @@
                                 <a href="/adver" class="menu__link">Ap Bokto</a>
                             </li>
                             <li class="menu__item">
-                                <a href="/details" class="menu__link">Studio</a>
+                                <a href="/details" class="menu__link"> Shorts</a>
                             </li>
                             <li class="menu__item">
-                                <a href="/services" class="menu__link">Shorts</a>
+                                <a href="/services" class="menu__link">Studio</a>
                             </li>
                             <li class="menu__item">
                                 <a href="/contact" class="menu__link">Contact Us</a>
