@@ -54,13 +54,13 @@ body {
   font-weight: 600;
 }
 
-.text {
+.text1 {
   font-size: 16px;
   line-height: 1.5;
   max-width: 470px;
 }
 @media (max-width: 850px) {
-  .text {
+  .text1 {
     margin: 0 auto 30px;
   }
 }
@@ -582,11 +582,11 @@ body {
     max-width: 100%;
   }
 }
-.service__text {
+.service__text1 {
   color: #707070;
 }
 @media (max-width: 550px) {
-  .service__text {
+  .service__text1 {
     margin-bottom: 20px;
   }
 }
