@@ -305,7 +305,7 @@ file name welcome.blade.php
                     <div class="share-buttons-block">
                         <div class="share-icon"></div>
                         <div class="sbb-title">
-                            <span>Share Zoro</span>
+                            <span>Share Athang Shorts</span>
                             <p class="mb-0">to your friends</p>
                         </div>
                         <div class="addthis_inline_share_toolbox"></div>
