@@ -82,6 +82,7 @@
     
 
 <!-- start of video.php -->
+<main>
 <section class="tv-series">
         <div class="container">
 <p class="section-subtitle">Best  Series</p>
@@ -546,6 +547,7 @@
 
         </div>
       </section>
+</main>
   <!-- 
     - #GO TO TOP
   -->
