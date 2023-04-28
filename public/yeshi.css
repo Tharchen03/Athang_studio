@@ -1596,3 +1596,11 @@ body.active { overflow: hidden; }
   }
 
 }
+
+.footer-link__header{
+  color: black;
+}
+
+.footer-contact__header{
+  color: black;
+}
