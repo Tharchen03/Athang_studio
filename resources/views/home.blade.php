@@ -583,6 +583,9 @@
                             breakdown and many more.As a company,
                             Athang believes in the team work and democratic working culture to bring the best of every
                             employees at personal as well as professional level.
+</p>
+<br>
+<p>
                             As credentials, Athang has been with some international organizations in IT/software
                             Services, professional training, and 3D animations.
                             In our complex Company, we work together as a team, harnessing the power of our combined
@@ -608,6 +611,9 @@
                             Enterprise Resource Planning (ERP) system since 2014.
                             The training academy was established with the aim to bridge the gap in the capacity
                             development of human resources in Bhutan.
+</p>
+<br>
+<p>
                             Though Bhutan took up the planed socio-economic activities late in the early 1960s, both the
                             public and private companies did
                             not have a training institute to suite our own Bhutanese need. To provide the alternative
