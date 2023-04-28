@@ -112,7 +112,7 @@
                                                         Ap bokto 2
                                                         </div>
                                                 </div>
-                                                <a href="/https://www.youtube.com/watch?v=5r7i_uDMeTc"
+                                                <a href="https://www.youtube.com/watch?v=5r7i_uDMeTc"
                                                     class="film-poster">
                                                     <img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9VKukBgfC0Sv8FuCdZTxGYHWXzCm0CnQK9nFaEYFwXt-bi8XU-ga4Ir-LFt3RtYjVkFQ&usqp=CAU"
                                                         class="film-poster-img lazyload"
@@ -131,7 +131,7 @@
                                                     Ap bokto vs #
                                                     </div>
                                                 </div>
-                                                <a href="https://www.youtube.com/watch?v=MopMy0oJGm0" class="film-poster">
+                                                <a href="https://www.youtube.com/watch?v=5NSr6MgDsRA" class="film-poster">
                                                     <img data-src="https://i.ytimg.com/vi/ilM638X2EsI/maxresdefault.jpg"
                                                         class="film-poster-img lazyload" title="Ap bokto vs #"
                                                         alt="My Star">
