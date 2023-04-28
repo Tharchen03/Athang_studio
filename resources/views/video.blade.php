@@ -127,13 +127,13 @@
                                             <div class="item">
                                                 <div class="number">
                                                     <span>03</span>
-                                                    <div class="film-title dynamic-name" data-jname Oshi no Ko"">My
-                                                        Star
+                                                    <div class="film-title dynamic-name" data-jname Oshi no Ko"">
+                                                    Ap bokto vs #
                                                     </div>
                                                 </div>
-                                                <a href="/my-star-18330" class="film-poster">
-                                                    <img data-src="https://img.zorores.com/_r/300x400/100/99/59/995928d6858977d66f7da57e0e0af08a/995928d6858977d66f7da57e0e0af08a.jpg"
-                                                        class="film-poster-img lazyload" title="My Star"
+                                                <a href="https://www.youtube.com/watch?v=MopMy0oJGm0" class="film-poster">
+                                                    <img data-src="https://i.ytimg.com/vi/ilM638X2EsI/maxresdefault.jpg"
+                                                        class="film-poster-img lazyload" title="Ap bokto vs #"
                                                         alt="My Star">
                                                 </a>
                                                 <div class="clearfix"></div>
