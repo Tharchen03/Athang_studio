@@ -20,6 +20,7 @@
    * colors
    */
 
+<<<<<<< HEAD
   --rich-black-fogra-29: hsl(225, 57%, 97%);
   --rich-black-fogra-39: hsl(180, 62%, 95%);
   --raisin-black: hsl(210, 5%, 7%);
@@ -34,6 +35,22 @@
   --white: hsl(0, 100%, 100%);
   --black: hsl(0, 24%, 96%);
   --jet: hsl(0, 33%, 92%);
+=======
+  --rich-black-fogra-29: hsl(223, 33%, 96%);
+  --rich-black-fogra-39: hsl(180, 25%, 94%);
+  --raisin-black: hsl(225, 14%, 95%);
+  --eerie-black: hsl(200, 12%, 90%);
+  --light-gray: hsl(0, 3%, 80%);
+  --gunmetal-1: hsl(229, 15%, 21%);
+  --gunmetal-2: hsl(216, 22%, 18%);
+  --gainsboro: hsl(0, 0%, 2%);
+  --citrine: hsl(0, 4%, 5%);
+  --xiketic: hsl(0, 0%, 2%);
+  --gray-x: hsl(0, 0%, 3%);
+  --white: hsl(0, 0%, 3%);
+  --black: hsl(0, 0%, 2%);
+  --jet: hsl(0, 0%, 3%);
+>>>>>>> ea530f734bc9b79366090ffec1146866b0cd55ed
 
   /**
    * typography
@@ -517,7 +534,95 @@ body.active { overflow: hidden; }
   z-index: 2;
 }
 
+<<<<<<< HEAD
 .go-top.active {
   opacity: 1;
   visibility: visible;
 }
+=======
+  /**
+   * HEADER
+   */
+
+  .navbar { margin-inline: auto; }
+
+  .header-actions .btn-primary {
+    display: block;
+    --fs-11: 14px;
+    padding: 10px 35px;
+    letter-spacing: 1px;
+  }
+
+
+
+  /**
+   * HERO
+   */
+
+  .hero .container { width: 1320px; }
+
+
+
+  /**
+   * UPCOMING
+   */
+
+  .upcoming .movies-list > li { min-width: calc(25% - 22.5px); }
+
+
+
+  /**
+   * SERVICE
+   */
+
+  .service-content { width: calc(100% - 700px); }
+
+  .service-btn { right: -20px; }
+
+  .service-list,
+  .service-title { max-width: 480px; }
+
+
+
+  /**
+   * CTA
+   */
+
+  .cta .container { max-width: 1150px; }
+
+
+
+  /**
+   * MOVIE DETAIL
+   */
+
+  .movie-detail { padding-bottom: var(--section-padding); }
+
+  .movie-detail-content { max-width: 620px; }
+
+  .detail-title { --fs-1: 60px; }
+
+  .download-btn {
+    left: auto;
+    right: 15px;
+    bottom: 0;
+    transform: rotate(0.25turn) translateY(100%);
+    transform-origin: bottom right;
+    padding: 40px 50px;
+  }
+
+  .download-btn ion-icon {
+    font-size: 30px;
+    transform: rotate(-0.25turn);
+  }
+
+}
+
+.footer-link__header{
+  color: black;
+}
+
+.footer-contact__header{
+  color: black;
+}
+>>>>>>> ea530f734bc9b79366090ffec1146866b0cd55ed
