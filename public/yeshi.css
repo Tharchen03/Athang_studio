@@ -22,17 +22,17 @@
 
   --rich-black-fogra-29: hsl(225, 57%, 97%);
   --rich-black-fogra-39: hsl(180, 62%, 95%);
-  --raisin-black: hsl(229, 65%, 97%);
+  --raisin-black: hsl(210, 5%, 7%);
   --eerie-black: hsl(202, 41%, 95%);
   --light-gray: hsl(0, 3%, 80%);
   --gunmetal-1: hsl(229, 15%, 21%);
   --gunmetal-2: hsl(216, 22%, 18%);
-  --gainsboro: hsl(0, 7%, 88%);
+  --gainsboro: hsl(0, 20%, 95%);
   --citrine: hsl(57, 97%, 45%);
-  --xiketic: hsl(254, 63%, 95%);
+  --xiketic: hsl(240, 67%, 98%);
   --gray-x: hsl(0, 0%, 74%);
   --white: hsl(0, 100%, 100%);
-  --black: hsl(0, 39%, 95%);
+  --black: hsl(0, 24%, 96%);
   --jet: hsl(0, 33%, 92%);
 
   /**
@@ -497,7 +497,27 @@ body.active { overflow: hidden; }
 
   .movies-list { grid-template-columns: repeat(4, 1fr); }
 
+}
 
+.go-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--citrine);
+  color: var(--eerie-black);
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.5);
+  opacity: 0;
+  visibility: visible;
+  transition: var(--transition-2);
+  z-index: 2;
+}
 
-
+.go-top.active {
+  opacity: 1;
+  visibility: visible;
 }
