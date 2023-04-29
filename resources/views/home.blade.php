@@ -10,10 +10,76 @@
  <link rel="icon" type="Athang_logo.jpg" sizes="32x32" href="Athang_logo.jpg">
     <link rel="icon" type="Athang_logo.jpg" sizes="16x16" href="Athang_logo.jpg">
     <!-- end -->
-    <link rel="stylesheet" href="nullstyle.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="nullstyle.css"> -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="yeshi.css">
     <title>Athang Studio</title>
+    <!-- <style>
+      #contact {
+	padding: 100px 0;
+	background: #f5f5f5;
+	@media (max-width: 850px) {
+		padding-bottom: 50px;
+	}
+	&__inner {
+		text-align: center;
+	}
+
+	&__title {
+		font-size: 40px;
+		font-weight: 700;
+		position: relative;
+		display: inline-block;
+		padding-bottom: 15px;
+		margin-bottom: 25px;
+
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			display: block;
+			width: 65px;
+			height: 7px;
+			background: #000;
+			border-radius: 10px;
+		}
+	}
+
+	&__input {
+		margin: 20px 0;
+
+		::placeholder {
+			font-family: 'Montserrat', sans-serif;
+			color: #707070;
+			font-weight: 600;
+			font-size: 12px;
+		}
+
+		& textarea {
+			width: 290px;
+			height: 150px;
+			border-radius: 8px;
+			border: 1px solid #707070;
+			padding: 10px;
+			font-size: 16px;
+		}
+	}
+
+	&__name {
+		width: 290px;
+		height: 50px;
+		border-radius: 8px;
+		border: 1px solid #707070;
+		padding: 0 10px;
+		font-size: 16px;
+	}
+	&__btn{
+		background: transparent;
+	}
+}
+
+      </style> -->
 </head>
 
 <body>
@@ -655,7 +721,7 @@
 
 
 <!-- contack us -->
-        <section class="contact" id="contact">
+        <!-- <section class="contact" id="contact">
             <div class="container">
                 <div class="contact__inner">
                     <h2 class="home__title">Contact Us</h2>
@@ -680,7 +746,7 @@
                     </form>
                 </div>
             </div>
-        </section>
+        </section> -->
 
     <!-- end of contack us -->
   <!-- 
