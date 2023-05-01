@@ -12,6 +12,20 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Athang Studio</title>
+
+    <meta property="og:title" content="Athang studio">
+    <!-- <meta property="og:image" content="capture.png"> -->
+    <meta property="og:image:width" content="650">
+    <meta property="og:image:height" content="350">
+    <meta property="og:description"
+        content="Watch your favorite anime online in Dub or Sub format without registration on Zoro.to fastest Streaming server NOW.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar" content="#202125">
+    <meta name="theme-color" content="#202125">
+    <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="lo3.png"" sizes="32x32" href="lo3.png">
+    <link rel="icon" type="lo3.png"" sizes="16x16" href="lo3.png">
 </head>
 
 <body>
