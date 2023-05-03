@@ -18,12 +18,12 @@
     <meta name="apple-mobile-web-app-status-bar" content="#202125">
     <meta name="theme-color" content="#202125">
     <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="lo3.png"" sizes="32x32" href="lo3.png">
-    <link rel="icon" type="lo3.png"" sizes="16x16" href="lo3.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="lo3.png"" sizes="32x32" href="images/lo3.png">
+    <link rel="icon" type="lo3.png"" sizes="16x16" href="images/lo3.png">
     <!-- end -->
-    <link rel="stylesheet" href="nullstyle.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/nullstyle.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Athang Studio</title>
 </head>

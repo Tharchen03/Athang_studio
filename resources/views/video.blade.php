@@ -22,9 +22,9 @@
     <meta name="apple-mobile-web-app-status-bar" content="#202125">
     <meta name="theme-color" content="#202125">
     <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="lo3.png"" sizes="32x32" href="lo3.png">
-    <link rel="icon" type="lo3.png"" sizes="16x16" href="lo3.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="lo3.png"" sizes="32x32" href="images/lo3.png">
+    <link rel="icon" type="lo3.png"" sizes="16x16" href="images/lo3.png">
     <!-- <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <link rel="icon" sizes="192x192" href="touch-icon-192x192.png">
@@ -54,11 +54,11 @@
     }
 </script>
     <!--Begin: Stylesheet-->
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap-icons.css">
-    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="styles.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
     <!--End: Stylesheet-->
 </head>
 
@@ -841,7 +841,7 @@
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6086e5df0640b767" defer async>
 </script>
 <script src="socket.io.min.js" crossorigin="anonymous"></script>
-<script type="text/javascript" src="app.min.js"></script>
+<script type="text/javascript" src="script/app.min.js"></script>
 <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {

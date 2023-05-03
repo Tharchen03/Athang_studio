@@ -8,8 +8,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="nullstyle.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/nullstyle.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Athang Studio</title>
 </head>
@@ -21,7 +21,7 @@
             <div class="footer__inner">
                 <div class="footer__block">
                     <a href="https://www.athang.com/public/w" class="footer__logo logo">
-                        <img src="Athang_logo.jpg" alt="logo" class="logo__img img">
+                        <img src="images/Athang_logo.jpg" alt="logo" class="logo__img img">
                         <span>Athang Studio</span>
                     </a>
 
@@ -39,13 +39,13 @@
                     </div>
                     <div class="footer__socials">
                         <a href="https://www.facebook.com/profile.php?id=100057108984264" class="footer__social">
-                            <img src="fb.svg" alt="footer img" class="footer__img img">
+                            <img src="images/fb.svg" alt="footer img" class="footer__img img">
                         </a>
                         <a href="https://www.instagram.com/athang215/" class="footer__social">
-                            <img src="in.svg" alt="footer img" class="footer__img img">
+                            <img src="images/in.svg" alt="footer img" class="footer__img img">
                         </a>
                         <a href="https://twitter.com/home" class="footer__social">
-                            <img src="tw.svg" alt="footer img" class="footer__img img">
+                            <img src="images/tw.svg" alt="footer img" class="footer__img img">
                         </a>
                     </div>
                 </div>
@@ -119,8 +119,8 @@
 
     </div>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="slick.min.js"></script>
-    <script src="script.js"></script>
+    <script src="script/slick.min.js"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>

@@ -8,8 +8,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="nullstyle.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/nullstyle.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Athang Studio</title>
 
@@ -23,9 +23,9 @@
     <meta name="apple-mobile-web-app-status-bar" content="#202125">
     <meta name="theme-color" content="#202125">
     <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="lo3.png"" sizes="32x32" href="lo3.png">
-    <link rel="icon" type="lo3.png"" sizes="16x16" href="lo3.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="lo3.png"" sizes="32x32" href="images/lo3.png">
+    <link rel="icon" type="lo3.png"" sizes="16x16" href="images/lo3.png">
 </head>
 
 <body>
@@ -33,7 +33,7 @@
         <div class="container">
             <div class="header__inner">
                 <a href="https://www.athang.com/public/w" class="header__logo logo">
-                    <img src="Athang_logo.jpg" alt="logo" class="logo__img img">
+                    <img src="images/Athang_logo.jpg" alt="logo" class="logo__img img">
                     <span>Athang Studio</span>
                 </a>
                 <div class="header__body">

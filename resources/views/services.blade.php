@@ -18,12 +18,12 @@
     <meta name="apple-mobile-web-app-status-bar" content="#202125">
     <meta name="theme-color" content="#202125">
     <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="lo3.png"" sizes="32x32" href="lo3.png">
-    <link rel="icon" type="lo3.png"" sizes="16x16" href="lo3.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="lo3.png"" sizes="32x32" href="images/lo3.png">
+    <link rel="icon" type="lo3.png"" sizes="16x16" href="images/lo3.png">
     <!-- end -->
-    <link rel="stylesheet" href="nullstyle.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/nullstyle.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Athang Studio</title>
 </head>
@@ -41,7 +41,7 @@
                 <div class="service__column">
                     <div class="service__item">
                         <div class="service__image">
-                            <img src="i.webp" alt="service" class="service__img img">
+                            <img src="images/i.webp" alt="service" class="service__img img">
                         </div>
                         <h3 class="service__name">Video Editing</h3>
                         <p class="service__text text">"Editing is like killing your story and then very slowly bringing
@@ -51,7 +51,7 @@
                 <div class="service__column">
                     <div class="service__item">
                         <div class="service__image">
-                            <img src="e.webp" alt="service" class="service__img img">
+                            <img src="images/e.webp" alt="service" class="service__img img">
                         </div>
                         <h3 class="service__name">video Services</h3>
                         <p class="service__text text">"We're operating in a world where one good video can lead to a
@@ -61,7 +61,7 @@
                 <div class="service__column">
                     <div class="service__item">
                         <div class="service__image">
-                            <img src="a.jpg" alt="service" class="service__img img">
+                            <img src="images/a.jpg" alt="service" class="service__img img">
                         </div>
                         <h3 class="service__name">Streaming</h3>
                         <p class="service__text text">“The secret to getting ahead is getting started.” </p>
@@ -70,7 +70,7 @@
                 <div class="service__column">
                     <div class="service__item">
                         <div class="service__image">
-                            <img src="u.jpg"alt="service" class="service__img img">
+                            <img src="images/u.jpg"alt="service" class="service__img img">
                         </div>
                         <h3 class="service__name">Video</h3>
                         <p class="service__text text">Video allows us to tell the great stories of our customers, rather
