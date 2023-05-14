@@ -34,7 +34,7 @@
             <div class="header__inner">
                 <a href="https://www.athang.com/public/w" class="header__logo logo">
                     <img src="images/Athang_logo.jpg" alt="logo" class="logo__img img">
-                    <span>Athang_Studio</span>
+                    <span>Athang Studio</span>
                 </a>
                 <div class="header__body">
                     <nav class="menu">
