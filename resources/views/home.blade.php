@@ -166,8 +166,8 @@
               <div class="movie-card">
 
                 <a href="./movie-details.html">
-                  <figure class="card-banner">
-                    <img src="./assets/images/movie-3.png" alt="The Adam Project movie poster">
+                <figure class="card-banner">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/Ap_Bokto.jpg" alt="Sonic the Hedgehog 2 movie poster">
                   </figure>
                 </a>
 
@@ -202,8 +202,8 @@
               <div class="movie-card">
 
                 <a href="./movie-details.html">
-                  <figure class="card-banner">
-                    <img src="./assets/images/movie-4.png" alt="Free Guy movie poster">
+                <figure class="card-banner">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/Ap_Bokto.jpg" alt="Sonic the Hedgehog 2 movie poster">
                   </figure>
                 </a>
 
@@ -238,8 +238,8 @@
               <div class="movie-card">
 
                 <a href="./movie-details.html">
-                  <figure class="card-banner">
-                    <img src="./assets/images/movie-5.png" alt="The Batman movie poster">
+                <figure class="card-banner">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/Ap_Bokto.jpg" alt="Sonic the Hedgehog 2 movie poster">
                   </figure>
                 </a>
 
@@ -274,8 +274,8 @@
               <div class="movie-card">
 
                 <a href="./movie-details.html">
-                  <figure class="card-banner">
-                    <img src="./assets/images/movie-6.png" alt="Uncharted movie poster">
+                <figure class="card-banner">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/Ap_Bokto.jpg" alt="Sonic the Hedgehog 2 movie poster">
                   </figure>
                 </a>
 
@@ -310,8 +310,8 @@
               <div class="movie-card">
 
                 <a href="./movie-details.html">
-                  <figure class="card-banner">
-                    <img src="./assets/images/movie-7.png" alt="Death on the Nile movie poster">
+                <figure class="card-banner">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/Ap_Bokto.jpg" alt="Sonic the Hedgehog 2 movie poster">
                   </figure>
                 </a>
 
@@ -346,8 +346,8 @@
               <div class="movie-card">
 
                 <a href="./movie-details.html">
-                  <figure class="card-banner">
-                    <img src="./assets/images/movie-8.png" alt="The King's Man movie poster">
+                <figure class="card-banner">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/Ap_Bokto.jpg" alt="Sonic the Hedgehog 2 movie poster">
                   </figure>
                 </a>
 
@@ -476,8 +476,8 @@
               <div class="movie-card">
 
                 <a href="./movie-details.html">
-                  <figure class="card-banner">
-                    <img src="./assets/images/series-3.png" alt="Vikings: Valhalla movie poster">
+                <figure class="card-banner">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHRX2lDr6wIZfibxiFiItsGqSQMbXs2eA21w&usqp=CAU" alt="Moon Knight movie poster">
                   </figure>
                 </a>
 
@@ -512,8 +512,8 @@
               <div class="movie-card">
 
                 <a href="./movie-details.html">
-                  <figure class="card-banner">
-                    <img src="./assets/images/series-4.png" alt="Money Heist movie poster">
+                <figure class="card-banner">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHRX2lDr6wIZfibxiFiItsGqSQMbXs2eA21w&usqp=CAU" alt="Moon Knight movie poster">
                   </figure>
                 </a>
 
