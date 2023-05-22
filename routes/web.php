@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CustomerController;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,3 +57,12 @@ Route::get('/footer', function () {
 Route::get('/video', function () {
     return view('video');
 });
+
+// Route::redirect('/', '/home');
+Auth::routes();
+Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
+
+
+Auth::routes();
+
+Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');

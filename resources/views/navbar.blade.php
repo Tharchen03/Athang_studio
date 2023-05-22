@@ -54,15 +54,46 @@
                             <li class="menu__item">
                                 <a href="/contact" class="menu__link">Contact Us</a>
                             </li>
+{{-- 
+                            <li class="menu__item">
+                                <a href="/admin" class="menu__link">Admin pannel </a>
+                            </li> --}}
+                            <!-- Authentication Links -->
+                            @guest
+                                @if (Route::has('login'))
+                                    <li class="menu__item">
+                                        <a class="menu__link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    </li>
+                                @endif
+                            @else
+                                <li class="menu__item">
+                                    <a class="menu__link" href="/admin" role="button" data-bs-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false" v-pre>
+                                        {{ Auth::user()->name }}
+                                    </a>
+
+                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                        <a class="menu__link" href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
+                                                 document.getElementById('logout-form').submit();">
+                                            {{ __('Logout') }}
+                                        </a>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                            @csrf
+                                        </form>
+                                    </div>
+                                </li>
+                            @endguest
                         </ul>
                     </nav>
 
 
-                <div class="header__burger">
-                    <span></span>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
                 </div>
             </div>
-        </div>
     </header>
 
 
