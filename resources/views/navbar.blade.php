@@ -18,7 +18,7 @@
     <meta property="og:image:width" content="650">
     <meta property="og:image:height" content="350">
     <meta property="og:description"
-        content="Watch your favorite anime online in Dub or Sub format without registration on Zoro.to fastest Streaming server NOW.">
+        content="Athang Studio">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta name="apple-mobile-web-app-status-bar" content="#202125">
     <meta name="theme-color" content="#202125">

@@ -9,7 +9,7 @@
                     </div>
                     <div class="card-body">
                         <a href="{{ url('/shorts/create') }}" class="btn btn-success btn-sm" title="Add New Student">
-                            <i class="fa fa-plus" aria-hidden="true"></i> Add New
+                            <i class="fa fa-plus" aria-hidden="true"></i> Add New shorts
                         </a>
                         <br />
 
@@ -17,7 +17,7 @@
                             <div class="container-fluid">
                                 <form class="d-flex" role="search" method="GET" action="{{ route('shorts.index') }}"
                                     accept-charset="UTF-8">
-                                    <input class="form-control me-2" type="search" placeholder="Search Student"
+                                    <input class="form-control me-2" type="search" placeholder="Search Short"
                                         aria-label="Search" name="search" value="{{ request('search') }}">
                                     <button class="btn btn-outline-success" type="submit">Search</button>
                                 </form>
