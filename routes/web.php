@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CustomerController;
+use App\Http\Controllers\AthangShortsController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -59,10 +59,20 @@ Route::get('/video', function () {
 });
 
 // Route::redirect('/', '/home');
+// Auth::routes();
+// Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
+
+
+// Auth::routes();
+
+// Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
+// Route::resource('shorts',AthangShortsController::class);
+
 Auth::routes();
-Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
+    Route::resource('shorts', AthangShortsController::class);
+});
 
 
-Auth::routes();
-
-Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');

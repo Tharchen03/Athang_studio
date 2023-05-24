@@ -66,12 +66,16 @@
                                     </li>
                                 @endif
                             @else
+                            
                                 <li class="menu__item">
                                     <a class="menu__link" href="/admin" role="button" data-bs-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false" v-pre>
                                         {{ Auth::user()->name }}
                                     </a>
 
+                                 
+                                </li>
+                                <li>
                                     <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                         <a class="menu__link" href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
@@ -84,6 +88,7 @@
                                         </form>
                                     </div>
                                 </li>
+                            
                             @endguest
                         </ul>
                     </nav>
