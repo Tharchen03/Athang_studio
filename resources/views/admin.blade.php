@@ -14,13 +14,14 @@
                             </div>
                         @endif
 
-                        {{ __('You are logged in!') }}
+                        {{ __('You are logged in!' ) }}
+                        </br>
+                        {{ __('Welcome to Your dashboard!') }} {{ Auth::user()->name }}
                     </div>
                 </div>
             </div>
         </div>
-        <a>Create Customer</a><br/>
-        <a>View Customers</a>
+        
 
 
 

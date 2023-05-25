@@ -402,7 +402,7 @@
 
                             <ul class="movies-list">
                                 @foreach ($students as $shorts)
-                                    <li>{{ $loop->iteration }}
+                                    <li>
 
                                         <div class="movie-card">
 
@@ -421,7 +421,7 @@
                                             </div>
 
                                             <div class="card-meta">
-                                                <div class="badge badge-outline">2K</div>
+                                                <div class="badge badge-outline">#{{ $loop->iteration }}Trending</div>
 
                                                 <div class="duration">
                                                     <ion-icon name="time-outline"></ion-icon>
@@ -466,5 +466,4 @@
             <script src="script/slick.min.js"></script>
             <script src="script/script.js"></script>
 </body>
-
 </html>
