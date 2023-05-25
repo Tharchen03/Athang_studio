@@ -85,6 +85,21 @@ class AthangShortsController extends Controller
 }
 
 
+public function vedio(Request $request): View
+{
+    $keyword = $request->get('search');
+    if (!empty($keyword)) {
+        $students = AthangShorts::where('name', 'LIKE', "%$keyword%")
+            ->orWhere('description', 'LIKE', "%$keyword%")
+            ->latest()
+            ->get();
+    } else {
+        $students = AthangShorts::latest()->get();
+    }
+
+    return view('vedio', compact('students'));
+}
+
 
     /**
      * Show the form for creating a new resource.

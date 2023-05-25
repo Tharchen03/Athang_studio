@@ -56,9 +56,10 @@ Route::get('/footer', function () {
     return view('footer');
 });
 
-Route::get('/video', function () {
-    return view('video');
-});
+// Route::get('/video', function () {
+//     return view('video');
+// });
+Route::get('/video', [AthangShortsController::class, 'trial'])->name('trial');
 
 // Route::redirect('/', '/home');
 // Auth::routes();

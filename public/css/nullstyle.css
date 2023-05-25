@@ -23,9 +23,9 @@ html,body{
 	font-size: 100%;
 	line-height: 1;
 	font-size: 20px;
-	-ms-text-size-adjust: 100%;
+	/* -ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%; */
 }
 input,button,textarea{
 	font-family: 'Poppins', sans-serif;
