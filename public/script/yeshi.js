@@ -42,3 +42,5 @@ window.addEventListener("scroll", function () {
         ? goTopBtn.classList.add("active")
         : goTopBtn.classList.remove("active");
 });
+
+

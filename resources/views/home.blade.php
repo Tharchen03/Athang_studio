@@ -23,6 +23,12 @@
     <!-- <link rel="stylesheet" href="nullstyle.css"> -->
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="css/yeshi.css">
+
+    <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <title>Athang Studio</title>
 
 

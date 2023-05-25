@@ -51,7 +51,7 @@
   --white: hsl(0, 0%, 3%);
   --black: hsl(0, 0%, 2%);
   --jet: hsl(0, 0%, 3%);
->>>>>>> ea530f734bc9b79366090ffec1146866b0cd55ed
+/* >>>>>>> ea530f734bc9b79366090ffec1146866b0cd55ed */
 
   /**
    * typography
@@ -541,12 +541,12 @@ body.active { overflow: hidden; }
   z-index: 2;
 }
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 .go-top.active {
   opacity: 1;
   visibility: visible;
 }
-=======
+/* ======= */
   /**
    * HEADER
    */
@@ -632,5 +632,130 @@ body.active { overflow: hidden; }
 .footer-contact__header{
   color: black;
 }
->>>>>>> ea530f734bc9b79366090ffec1146866b0cd55ed
+/* >>>>>>> ea530f734bc9b79366090ffec1146866b0cd55ed */
 
+/*======================================
+//--//-->   AGENTS - CARD-D
+======================================*/
+.card-box-d .card-overlay-hover {
+  transition: all 0.2s ease-in-out;
+  padding: 15px 40px 15px 35px;
+}
+
+@media (min-width: 768px) {
+  .card-box-d .card-overlay-hover {
+    padding: 5px 15px 5px 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-box-d .card-overlay-hover {
+    padding: 5px 40px 5px 35px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-box-d .card-overlay-hover {
+    padding: 15px 40px 5px 35px;
+  }
+}
+
+.card-box-d .title-d {
+  transition: 0.3s ease-in-out;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+@media (min-width: 768px) {
+  .card-box-d .title-d {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-box-d .title-d {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-box-d .title-d {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+}
+
+.card-box-d .content-d {
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  transform: translateY(-40px);
+}
+
+@media (min-width: 768px) {
+  .card-box-d .content-d {
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-box-d .card-body-d p {
+    margin-bottom: 8px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-box-d .card-body-d p {
+    margin-bottom: 12px;
+    font-size: 1rem;
+  }
+}
+
+.card-box-d .info-agents {
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.card-box-d .card-footer-d {
+  transition: 0.5s ease-in-out;
+  transform: translateY(40px);
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  left: 0;
+}
+
+.card-box-d .list-inline-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.card-box-d:hover .card-overlay-hover {
+  background-color: #2eca6a;
+  opacity: 0.9;
+}
+
+.card-box-d:hover .title-d,
+.card-box-d:hover .content-d,
+.card-box-d:hover .info-agents,
+.card-box-d:hover .card-footer-d {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*------/ Agent Single /------*/
+.agent-info-box .socials-footer {
+  margin-top: 2rem;
+}
+
+.agent-info-box .socials-footer li {
+  margin-right: 1.5rem;
+}
+
+}}
