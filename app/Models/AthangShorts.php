@@ -9,6 +9,6 @@ class AthangShorts extends Model
 {
     protected $table = 'athang_shorts';
     protected $primaryKey = 'id';
-    protected $fillable = ['name', 'studentId','address', 'mobile','age'];
+    protected $fillable = ['name', 'description','vediolink', 'image'];
     use HasFactory;
 }

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Models\AthangShorts;
 class HomeController extends Controller
 {
     //
@@ -24,8 +24,10 @@ class HomeController extends Controller
      * @return \Illuminate\Contracts\Support\Renderable
      */
     public function index()
+    
     {
-        return view('admin');
+        $students = AthangShorts::latest()->get();
+        return view('admin', compact('students'));
     }
 
 }

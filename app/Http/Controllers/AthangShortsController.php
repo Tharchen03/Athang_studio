@@ -18,7 +18,7 @@ class AthangShortsController extends Controller
 
     public function index(Request $request): View
     {
-        $perPage = 7;
+        $perPage = 5;
         $keyword = $request->get('search');
         if (!empty($keyword)) {
             $students = AthangShorts::where('name', 'LIKE', "%$keyword%")
@@ -31,6 +31,58 @@ class AthangShortsController extends Controller
 
         return view('shorts.index', compact('students'));
     }
+
+//     private function getStudents($perPage, $keyword = null)
+// {
+//     if (!empty($keyword)) {
+//         return AthangShorts::where('name', 'LIKE', "%$keyword%")
+//             ->orWhere('description', 'LIKE', "%$keyword%")
+//             ->latest()
+//             ->paginate($perPage);
+//     } else {
+//         return AthangShorts::latest()->paginate($perPage);
+//     }
+// }
+
+// public function home(Request $request): View
+// {
+//     $perPage = 5;
+//     $keyword = $request->get('search');
+//     $students = $this->getStudents($perPage, $keyword);
+//     return view('home', compact('students'));
+// }
+
+    public function home(Request $request): View
+    {
+        $perPage = 5;
+        $keyword = $request->get('search');
+        if (!empty($keyword)) {
+            $students = AthangShorts::where('name', 'LIKE', "%$keyword%")
+                ->orWhere('description', 'LIKE', "%$keyword%")
+                ->latest()
+                ->paginate($perPage);
+        } else {
+            $students = AthangShorts::latest()->paginate($perPage);
+        }
+    
+        return view('home', compact('students'));
+    }
+    
+
+    public function trial(Request $request): View
+{
+    $keyword = $request->get('search');
+    if (!empty($keyword)) {
+        $students = AthangShorts::where('name', 'LIKE', "%$keyword%")
+            ->orWhere('description', 'LIKE', "%$keyword%")
+            ->latest()
+            ->get();
+    } else {
+        $students = AthangShorts::latest()->get();
+    }
+
+    return view('trial', compact('students'));
+}
 
 
 
@@ -99,6 +151,6 @@ class AthangShortsController extends Controller
         //
         AthangShorts::destroy($id);
         // return redirect('student')->with('flash_message', 'Student deleted!');
-        return redirect('shorts')->with('success', 'Student deleted!');
+        return redirect('shorts')->with('success', 'shorts deleted!');
     }
 }

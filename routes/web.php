@@ -15,13 +15,13 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::redirect('/', '/home');
 
-Route::get('/home', function () {
-    return view('home');
-});
+// Route::get('/home', function () {
+//     return view('home');
+// });
+Route::get('/home', [AthangShortsController::class, 'home'])->name('home');
+
 
 Route::get('/details', function () {
     return view('details');
@@ -42,9 +42,11 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::get('/trial', function () {
-    return view('trial');
-});
+// Route::get('/trial', function () {
+//     return view('trial');
+// });
+Route::get('/trial', [AthangShortsController::class, 'trial'])->name('trial');
+
 
 Route::get('/navbar', function () {
     return view('navbar');
@@ -74,5 +76,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
     Route::resource('shorts', AthangShortsController::class);
 });
+
+// Route::get('/', [HomeController::class, 'home'])->name('home');
 
 

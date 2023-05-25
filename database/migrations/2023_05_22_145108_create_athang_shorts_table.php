@@ -14,10 +14,8 @@ return new class extends Migration
         Schema::create('athang_shorts', function (Blueprint $table) {
             $table->id();
             $table->string('name')->nullable();
-            $table->text('description')->nullable();
+            $table->string('description')->nullable();
             $table->string('vediolink')->nullable();
-            // $table->integer('number')->nullable();
-            // $table->integer('price')->nullable();
             $table->string('image')->nullable();
             $table->timestamps();
         });
