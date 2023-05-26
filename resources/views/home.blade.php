@@ -52,7 +52,7 @@
                                     class="home__img img">
                             </div>
 
-                            <div class="home__image">
+                            <!-- <div class="home__image">
                                 <video controls>
                                     <source
                                         src="https://vimeo.com/user19468877?embedded=true&source=owner_name&owner=19468877"
@@ -67,7 +67,7 @@
                             <div class="home__image">
                                 <img src="https://www.athang.com/public/images/logo.jpg" alt="home img"
                                     class="home__img img">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
