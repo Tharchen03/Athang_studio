@@ -67,7 +67,7 @@
                                                 <div class="item">
                                                     <div class="number">
                                                         <span>{{ $loop->iteration }}</span>
-                                                        <div class="film-title dynamic-name" data-jname="One Piece">
+                                                        <div class="film-title dynamic-name" data-jname="">
 
                                                             {{ $shorts->name }}
                                                         </div>
@@ -75,7 +75,7 @@
                                                     <a href="{{ $shorts->vediolink }}" class="film-poster">
                                                         <img data-src="{{ $shorts->image }}"
                                                             class="film-poster-img lazyload"
-                                                            title="{{ $shorts->description }}" alt="One Piece">
+                                                            title="{{ $shorts->description }}" alt="">
                                                     </a>
                                                     <div class="clearfix"></div>
                                                 </div>
