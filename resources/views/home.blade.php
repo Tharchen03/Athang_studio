@@ -88,8 +88,11 @@
                 <main>
                     <section class="tv-series">
                         <div class="container">
-                            <p class="section-subtitle">Best Series</p>
+                        <div class="section-title">
+                        <p class="section-subtitle">Best Series</p>
                             <h2 class="h2 section-title">Athang Series</h2>
+                        </div>
+                            
                             <ul class="movies-list">
 
                                 <li>
@@ -398,9 +401,13 @@
                     <section class="tv-series">
                         <div class="container">
 
-                            <p class="section-subtitle">Best shorts</p>
 
+                        <div class="section-title">
+                        <p class="section-subtitle">Best shorts</p>
                             <h2 class="h2 section-title">Athang Series</h2>
+                        </div>
+
+                          
 
                             <ul class="movies-list">
                                 @foreach ($students as $shorts)

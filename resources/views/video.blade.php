@@ -52,9 +52,14 @@
                 <div class="container">
                     <section class="block_area block_area_trending">
                         <div class="block_area-header">
-                            <div class="bah-heading">
+                            <!-- <div class="bah-heading">
                                 <h2 class="cat-heading">Athang Shorts</h2>
-                            </div>
+                            </div> -->
+
+                            <div class="section-title">
+          <h2>Athang Shorts</h2>
+          
+        </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="block_area-content">

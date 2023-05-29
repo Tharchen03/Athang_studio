@@ -44,7 +44,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h1>Contact us</h1>
+          <h2>Contact us</h2>
           
         </div>
 <br>
