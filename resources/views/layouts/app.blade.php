@@ -66,6 +66,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('shorts.index') }}">shorts</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('series.index') }}">series</a>
+                        </li>
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))

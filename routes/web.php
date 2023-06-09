@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AthangShortsController;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\SeriesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,9 +27,10 @@ Route::get('/home', [AthangShortsController::class, 'home'])->name('home');
 Route::get('/details', function () {
     return view('details');
 });
-Route::get('/adver', function () {
-    return view('adver');
-});
+// Route::get('/adver', function () {
+//     return view('adver');
+// });
+Route::get('/adver', [SeriesController::class,  'trial'])->name('trial');
 
 Route::get('/contact', function () {
     return view('contact');
@@ -77,6 +79,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
     Route::resource('shorts', AthangShortsController::class);
 });
+
+Route::resource('series', SeriesController::class);
 
 // Route::get('/', [HomeController::class, 'home'])->name('home');
 

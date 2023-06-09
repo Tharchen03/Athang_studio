@@ -22,8 +22,8 @@
     <meta name="theme-color" content="#202125">
     <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="lo3.png"" sizes="32x32" href="images/lo3.png">
-    <link rel="icon" type="lo3.png"" sizes="16x16" href="images/lo3.png">
+    <link rel="icon" type="lo3.png" sizes="32x32" href="images/lo3.png">
+    <link rel="icon" type="lo3.png" sizes="16x16" href="images/lo3.png">
     <!-- end -->
     <title>Athang Studio</title>
 </head>
